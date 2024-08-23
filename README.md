@@ -1,15 +1,3 @@
-# [팀프로젝트] Pick 뮤직플레이어
+wheatherjockey
+날씨에 따른 노래를 추천해주는 사이트
 
-수정 전
-
-## 사용한 프레임워크
-
-수정 전
-
-### `인원구성`
-
-수정 전
-
-### `npm run build` fails to minify
-
-수정 전: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
