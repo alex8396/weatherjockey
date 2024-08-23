@@ -1,0 +1,65 @@
+.season_youtube_link {
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+    // border-radius: 15px;
+  }
+}
+
+.album_cont {
+  display: flex;
+  gap: 20px;
+  // overflow: scroll;
+  // scroll-snap-type: x mandatory;
+  position: relative;
+  .album_item {
+    position: relative;
+    width: 246px;
+    scroll-snap-align: start;
+    color: black;
+
+    .shadow {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      filter: blur(30px);
+      z-index: 1;
+      width: 164px;
+      height: 60px;
+    }
+
+    &::before {
+      content: '';
+      width: 26px;
+      height: 3px;
+      background: white;
+      // border-radius: 100px;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      transform: rotate(315deg);
+      z-index: 15;
+    }
+    img {
+      &:nth-child(1) {
+        z-index: 10;
+        position: relative;
+        width: 246px;
+        height: 246px;
+      }
+    }
+  }
+}
+.section_title_container {
+  margin-bottom: 20px;
+  .section_title {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .section_title_desc {
+    color: #000000a6;
+  }
+}

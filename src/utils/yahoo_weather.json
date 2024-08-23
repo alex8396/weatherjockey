@@ -1,0 +1,122 @@
+{
+  "location": {
+    "city": "Seoul",
+    "woeid": 1132599,
+    "country": "South Korea",
+    "lat": 37.557121,
+    "long": 126.977379,
+    "timezone_id": "Asia/Seoul"
+  },
+  "current_observation": {
+    "pubDate": 1700584622,
+    "wind": {
+      "chill": 6,
+      "direction": "NNE",
+      "speed": 4
+    },
+    "atmosphere": {
+      "humidity": 59,
+      "visibility": 13.98,
+      "pressure": 1019.3
+    },
+    "astronomy": {
+      "sunrise": "7:18 AM",
+      "sunset": "5:17 PM"
+    },
+    "condition": {
+      "temperature": 6,
+      "text": "Clear",
+      "code": 31
+    }
+  },
+  "forecasts": [
+    {
+      "day": "Wed",
+      "date": 1700582400,
+      "high": 16,
+      "low": 1,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Thu",
+      "date": 1700668800,
+      "high": 16,
+      "low": -5,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Fri",
+      "date": 1700755200,
+      "high": 1,
+      "low": -7,
+      "text": "Mostly Sunny",
+      "code": 34
+    },
+    {
+      "day": "Sat",
+      "date": 1700841600,
+      "high": 4,
+      "low": -4,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Sun",
+      "date": 1700928000,
+      "high": 9,
+      "low": 3,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Mon",
+      "date": 1701014400,
+      "high": 10,
+      "low": -3,
+      "text": "Haze",
+      "code": 21
+    },
+    {
+      "day": "Tue",
+      "date": 1701100800,
+      "high": 4,
+      "low": -1,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Wed",
+      "date": 1701187200,
+      "high": 10,
+      "low": -1,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Thu",
+      "date": 1701273600,
+      "high": 7,
+      "low": -2,
+      "text": "Mostly Sunny",
+      "code": 34
+    },
+    {
+      "day": "Fri",
+      "date": 1701360000,
+      "high": 5,
+      "low": -3,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Sat",
+      "date": 1701446400,
+      "high": 6,
+      "low": -1,
+      "text": "Cloudy",
+      "code": 26
+    }
+  ]
+}
